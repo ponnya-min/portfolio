@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body{
+           background-image: url("restaurant.jpg");
+           
+        }
+        div{border-style: inset;
+            margin-left:20px ;
+            margin-right: 20px;
+            background-color: black;
+            opacity: 80%;
+            color: white;
+            text-align: center;
+        }
+        .Form{
+            text-align: left;
+            background-color: aliceblue;
+            opacity: 100%;
+            padding: 20px;
+            border-radius: 5%;
+            margin-bottom: 20px;
+        }
+        .Submit{
+            background-color: chartreuse;
+            border-radius: 8%;
+        }
+        .line{
+            text-align: left;
+            
+        }
+        li:nth-child(odd){background-color: rgb(16, 14, 13);}
+      </style>
+</head>
+<body >
+      <div>
+        <h1>Welcome To Our Restaurant</h1>
+        <h2>
+            Our Menu
+        </h2>
+        <ul class="line">
+            <li>Grilled Salmon</li>
+            <li>Chicken Alfredo</li>
+            <li>Caesar Salad</li>
+            <li>Margherita Pizza</li>
+            <li>Beef Taco</li>
+        </ul>
+        <h2>
+            Our Service
+        </h2>
+        <ol class="line">
+            <li>Dine-in</li>
+            <li>Takeout</li>
+            <li>Online Order</li>
+            <li>Catering</li>
+            <li>Private Events</li>
+        </ol>
+        <h2>
+            Location
+        </h2>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122188.20422094745!2d96.03980202470393!3d16.857018155466186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c195118883a187%3A0xc2cfe264955b2d59!2sCOFFEE%20DATE%20Since%202022(Hlaing%20branch)!5e0!3m2!1sen!2smm!4v1724663923737!5m2!1sen!2smm" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>
+            Make a Reservation
+        </h2>
+        <div class="Form">
+            <input type="text"name="Full Name" value="Name"><br><br>
+            <input type="email"name="email" value="Your Email"><br><br>
+            <textarea name="Special Request" id="Special Request">Special Request</textarea><br><br>
+            <input type="submit" class="Submit">
+        </div>
+    </div>
+
+</body>
+</html>
